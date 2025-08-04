@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 
 data = pd.read_csv('Neural_Network/NN_Scrach_MNIST/mnist_train.csv')
 data = np.array(data)
@@ -100,6 +100,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 data = pd.read_csv('Neural_Network/NN_Scrach_MNIST/mnist_test.csv')
+
 data = np.array(data)
 row, features =data.shape#features = amt of labels + 1,row= no of data points
 np.random.shuffle(data)
